@@ -94,3 +94,20 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media (max-width: 576px) {
+  img {
+    display: none;
+  }
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .primary-link {
+    text-align: center;
+    display: block;
+  }
+}
